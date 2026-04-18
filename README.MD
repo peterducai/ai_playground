@@ -9,10 +9,8 @@
 ```
 nvidia-smi
 curl -fsSL https://ollama.com/install.sh | sh
-mkdir Claude2
-cd Claude2/
-curl -fsSL https://ollama.com/install.sh | sh
 curl -fsSL https://claude.ai/install.sh | bash
+
 ```
 
 
@@ -20,6 +18,9 @@ curl -fsSL https://claude.ai/install.sh | bash
 ### start ollama claude
 
 ```
+mkdir Claude2
+cd Claude2/
+
 export ANTHROPIC_BASE_URL="http://localhost:11434"
 export ANTHROPIC_AUTH_TOKEN="ollama"
 export ANTHROPIC_API_KEY=""
