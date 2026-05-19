@@ -28,8 +28,8 @@ export ANTHROPIC_API_KEY=""
 sudo systemctl stop ollama
 
 OLLAMA_CONTEXT_LENGTH=20000 ollama serve &
-ollama pull glm-4.7-flash
-ollama launch claude --model glm-4.7-flash
+ollama pull granite4.1:3b
+ollama launch claude --model granite4.1:3b
 ```
 
 
