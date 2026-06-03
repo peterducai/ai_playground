@@ -54,3 +54,15 @@ ollama launch claude --model granite4.1:3b
   esc to interrupt
 [G? for shortcuts  14:15:43 | 200 | 48.767271926s |       127.0.0.1 | POST     "/v1/messages?beta=true"
 ```
+
+
+## ENV
+
+```
+sudo dnf install python3-pip -y
+pip install uv
+uv python install 3.12
+uv venv --python 3.12 --seed --managed-python
+source .venv/bin/activate
+pip install vllm
+```
