@@ -56,7 +56,7 @@ ollama launch claude --model granite4.1:3b
 ```
 
 
-## ENV
+## VLLM
 
 ```
 sudo dnf install python3-pip -y
@@ -65,4 +65,13 @@ uv python install 3.12
 uv venv --python 3.12 --seed --managed-python
 source .venv/bin/activate
 pip install vllm
+```
+
+
+## OLLAMA API
+
+```
+uv venv ollamaenv
+source .venv/bin/activate
+pip install ollama
 ```
